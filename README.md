@@ -8,7 +8,7 @@ A simple interactive game where the computer will try to guess the animal that t
 - Simple command line interface
 - Uses a binary tree to store information.
 - Saves the data to XML, JSON or YAML to persist across sessions.
-- Supports English and Esperanto (and can be easily extended to other languages.)
+- Supports English and Esperanto (change the language via `applicationDefaultJvmArgs` in `build.gradle`)
 
 ## Getting Started
 To get a local copy of the project up and running on your machine, follow these steps:
