@@ -8,7 +8,7 @@ A simple interactive game where the computer will try to guess the animal that t
 - Simple command line interface
 - Uses a binary tree to store information.
 - Saves the data to XML, JSON or YAML to persist across sessions.
-- Supports English and Esperanto (change the language via `applicationDefaultJvmArgs` in `build.gradle`)
+- Supports English and Esperanto (and can be easily extended to support other languages.)
 
 ## Getting Started
 To get a local copy of the project up and running on your machine, follow these steps:
@@ -42,6 +42,11 @@ tar -xf GuessTheAnimal_Java.tar
 ```
 ./GuessTheAnimal_Java/bin/GuessTheAnimal_Java
 ```
+
+## Usage
+- Change the language via `applicationDefaultJvmArgs` in `build.gradle`
+- Specify file format via command line argument `-type {json|xml|yaml}`
+
 
 ## Acknowledgements
 The Java programming language and Jackson project.
