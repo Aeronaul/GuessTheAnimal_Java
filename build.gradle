@@ -1,0 +1,25 @@
+plugins {
+    id 'application'
+}
+
+// change 'en' to 'eo' for Esperanto
+applicationDefaultJvmArgs = ["-Duser.language=en"] 
+
+jar {
+	manifest {
+		attributes 'Main-Class': 'animals.Main'
+	}
+}
+
+apply plugin: 'application'
+mainClassName = 'animals.Main'
+
+repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.11.2'
+        implementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-xml', version: '2.11.2'
+        implementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-yaml', version: '2.11.2'
+    }
