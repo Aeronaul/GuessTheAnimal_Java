@@ -21,7 +21,7 @@ To get a local copy of the project up and running on your machine, follow these 
 git clone https://github.com/Aeronaul/GuessTheAnimal_Java.git
 ```
 ```
-cd GuessTheAnimal_Java/src
+cd GuessTheAnimal_Java
 ```
 2. Run gradle build:
 ```
@@ -29,11 +29,11 @@ gradle build
 ```
 3. Extract the generated tar/zip archive:
 ```
-cd build/distributed
+cd build/distributions
 ```
 
 ```
-tar -xF GuessTheAnimal_Java.tar
+tar -xf GuessTheAnimal_Java.tar
 ```
 
 ```
